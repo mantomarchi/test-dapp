@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test dApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Test of dApp</h1>
+        <p>Here we can set or get the mood</p>
+        <label for="mood">Input Mood</label><br>
+        <input type="text" id="mood">
+        <button id="get-mood" onclick="getMood()">Get Mood</button>
+        <button id="set-mood" onclick="setMood()">Set Mood</button>
+        <p id="show-mood"></p>
+    </div>
+    <script>
+        let getMood;
+        let setMood;
+    </script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
